@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-from PIL import Image, ImageOps
+from PIL import Image
 from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import register_keras_serializable
 import tensorflow.keras.backend as k
